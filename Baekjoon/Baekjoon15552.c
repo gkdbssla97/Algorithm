@@ -1,0 +1,20 @@
+//
+// Created by 하윤 on 2021/07/29.
+//prob.15552
+
+#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable 4996)
+#include <stdio.h>
+
+int main() {
+    int a, b, n;
+
+    scanf("%d", &n);
+    for (int i = 0; i < n;i++) {
+        scanf("%d %d", &a, &b);
+        printf("%d\n", a + b);
+    }
+
+
+    return 0;
+}
